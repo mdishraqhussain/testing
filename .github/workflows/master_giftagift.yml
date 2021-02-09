@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'giftagift'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3aa213e9f36c48c3a4b9d5ee117e4b65 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1a2e4307cd914f798a064141d0a6c87a }}
         package: .
