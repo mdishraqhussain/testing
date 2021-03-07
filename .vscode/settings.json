@@ -1,4 +1,8 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/b46f9869-a887-4b2b-abe1-caf4e5bf4a21/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/giftsandgifts",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
